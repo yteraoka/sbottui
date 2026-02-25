@@ -33,8 +33,6 @@ archives:
     files:
       - LICENSE
       - README.md
-      - OPERATIONS.md
-      - OPERATIONS.ja.md
 
 checksum:
   name_template: 'checksums.txt'
