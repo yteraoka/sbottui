@@ -51,11 +51,6 @@ var (
 	styleOverlayLabel = lipgloss.NewStyle().
 				Foreground(lipgloss.Color("243")).
 				Width(20)
-
-	styleOverlayValue = lipgloss.NewStyle().
-				Foreground(lipgloss.Color("252")).
-				Width(30)
-
 	styleButton = lipgloss.NewStyle().
 			Foreground(lipgloss.Color("231")).
 			Background(lipgloss.Color("238")).

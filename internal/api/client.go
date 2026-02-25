@@ -52,7 +52,7 @@ func (c *Client) do(method, path string, body interface{}) ([]byte, error) {
 	if err != nil {
 		return nil, fmt.Errorf("http request: %w", err)
 	}
-	defer resp.Body.Close()
+	defer resp.Body.Close() //nolint:errcheck
 
 	data, err := io.ReadAll(resp.Body)
 	if err != nil {

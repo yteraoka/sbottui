@@ -27,7 +27,6 @@ type plugMiniOverlay struct {
 	hubDeviceID string
 	voltage     float64
 	weight      float64
-	statusMsg   string
 }
 
 func newPlugMiniOverlay(item domain.ListItem, client *api.Client) (*plugMiniOverlay, tea.Cmd) {
