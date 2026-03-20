@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	tea "github.com/charmbracelet/bubbletea"
+	tea "charm.land/bubbletea/v2"
 	"github.com/yteraoka/sbottui/internal/api"
 	"github.com/yteraoka/sbottui/internal/tui"
 )
@@ -32,7 +32,7 @@ func main() {
 	client := api.NewClient(token, secret)
 	model := tui.New(client)
 
-	p := tea.NewProgram(model, tea.WithAltScreen())
+	p := tea.NewProgram(model)
 	if _, err := p.Run(); err != nil {
 		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 		os.Exit(1)
