@@ -3,10 +3,10 @@ package tui
 import (
 	"fmt"
 
-	"github.com/charmbracelet/bubbles/key"
-	"github.com/charmbracelet/bubbles/spinner"
-	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/lipgloss"
+	"charm.land/bubbles/v2/key"
+	"charm.land/bubbles/v2/spinner"
+	tea "charm.land/bubbletea/v2"
+	"charm.land/lipgloss/v2"
 	"github.com/yteraoka/sbottui/internal/api"
 	"github.com/yteraoka/sbottui/internal/cache"
 	"github.com/yteraoka/sbottui/internal/domain"
@@ -258,21 +258,20 @@ func (m Model) handleOverlayKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 }
 
 // View renders the full UI.
-func (m Model) View() string {
+func (m Model) View() tea.View {
+	var v tea.View
+	v.AltScreen = true
 	switch m.state {
 	case stateLoading:
-		return fmt.Sprintf("\n  %s Loading devices and scenes...\n", m.spinner.View())
-
+		v.SetContent(fmt.Sprintf("\n  %s Loading devices and scenes...\n", m.spinner.View()))
 	case stateError:
-		return fmt.Sprintf("\n  Error: %v\n\n  Press r to retry or q to quit.\n", m.err)
-
+		v.SetContent(fmt.Sprintf("\n  Error: %v\n\n  Press r to retry or q to quit.\n", m.err))
 	case stateList:
-		return m.viewList()
-
+		v.SetContent(m.viewList())
 	case stateOverlay:
-		return m.viewOverlay()
+		v.SetContent(m.viewOverlay())
 	}
-	return ""
+	return v
 }
 
 func (m Model) viewList() string {
