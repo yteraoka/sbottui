@@ -4,10 +4,16 @@
     "config:recommended"
   ],
   "minimumReleaseAge": "7 days",
+  "platformAutomerge": true,
   "packageRules": [
     {
       "groupName": "charmbracelet",
-      "matchPackagePrefixes": ["github.com/charmbracelet/"]
+      "matchPackageNames": ["github.com/charmbracelet/{/,}**", "charm.land/{/,}**"]
+    },
+    {
+      "description": "minor 以下の更新は CI が通ったら自動マージする",
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
+      "automerge": true
     }
   ]
 }
