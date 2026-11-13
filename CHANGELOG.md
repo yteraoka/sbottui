@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.2.4](https://github.com/yteraoka/sbottui/compare/v0.2.3...v0.2.4) - 2026-11-13
+
+- Update jdx/mise-action action to v5.2.2 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/88
+- Update Songmu/tagpr action to v1.21.4 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/90
+- Update jdx/mise-action action to v5.2.3 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/91
+- Update jdx/mise-action action to v5.2.4 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/92
+- Update module charm.land/bubbletea/v2 to v2.1.1 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/93
+- Update jdx/mise-action action to v5.2.5 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/94
+- Update jdx/mise-action action to v5.2.6 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/95
+- Update Songmu/tagpr action to v1.22.0 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/96
+- Update jdx/mise-action action to v5.2.7 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/97
+
 ## [v0.2.3](https://github.com/yteraoka/sbottui/compare/v0.2.2...v0.2.3) - 2026-10-27
 
 - Update goreleaser/goreleaser-action action to v7.2.1 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/35
