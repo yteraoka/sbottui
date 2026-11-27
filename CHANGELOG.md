@@ -1,5 +1,27 @@
 # Changelog
 
+## [v0.2.4](https://github.com/yteraoka/sbottui/compare/v0.2.3...v0.2.4) - 2026-11-27
+
+- Update jdx/mise-action action to v5.2.2 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/88
+- Update Songmu/tagpr action to v1.21.4 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/90
+- Update jdx/mise-action action to v5.2.3 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/91
+- Update jdx/mise-action action to v5.2.4 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/92
+- Update module charm.land/bubbletea/v2 to v2.1.1 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/93
+- Update jdx/mise-action action to v5.2.5 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/94
+- Update jdx/mise-action action to v5.2.6 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/95
+- Update Songmu/tagpr action to v1.22.0 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/96
+- Update jdx/mise-action action to v5.2.7 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/97
+- Update module charm.land/lipgloss/v2 to v2.1.0 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/98
+- Update dependency go to v1.27.4 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/99
+- Update jdx/mise-action action to v5.2.8 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/100
+- Update module charm.land/lipgloss/v2 to v2.1.1 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/101
+- Update jdx/mise-action action to v5.2.9 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/102
+- Update actions/setup-go action to v7.1.0 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/103
+- Update module charm.land/bubbletea/v2 to v2.1.2 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/104
+- Update jdx/mise-action action to v5.2.10 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/105
+- Update actions/create-github-app-token action to v3.4.0 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/106
+- Update module charm.land/bubbles/v2 to v2.2.2 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/107
+
 ## [v0.2.3](https://github.com/yteraoka/sbottui/compare/v0.2.2...v0.2.3) - 2026-10-27
 
 - Update goreleaser/goreleaser-action action to v7.2.1 by @renovate[bot] in https://github.com/yteraoka/sbottui/pull/35
